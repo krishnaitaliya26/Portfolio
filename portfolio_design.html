@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Lobster&display=swap" rel="stylesheet">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js" integrity="sha512-GWzVrcGlo0TxTRvz9ttioyYJ+Wwk9Ck0G81D+eO63BaqHaJ3YZX9wuqjwgfcV/MrB2PhaVX9DkYVhbFpStnqpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/fontawesome.min.css" integrity="sha512-d0olNN35C6VLiulAobxYHZiXJmq+vl+BGIgAxQtD5+kqudro/xNMvv2yIHAciGHpExsIbKX3iLg+0B6d0k4+ZA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="portfolio_design.css">
+
+    <script>
+        var m = 0;
+        function show_list(){
+            if(m == 0){
+                m = 1;
+                document.getElementById("navbar").style.display = "block";
+            }
+            else{
+                m = 0;
+                document.getElementById("navbar").style.display = "none";
+            }
+        }
+    </script>
+</head>
+<body>
+            <nav>
+                <ul>
+                    <li class="name">Krishna Italiya</li>
+                </ul>
+
+                <div class="sun_moon_div"><img src="sun.png" alt="" id="sunicon"></div>
+
+                <ul>
+                   <li class="menu" onclick="show_list()"><i class="fas fa-bars"></i></li>
+                </ul>
+
+                <div id="navbar">
+                <ul class="nav" >
+                    <li><a href="portfolio_design.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="project.html">Projects</a></li>
+                    <li><a href="skill.html">Skills</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                </div>
+              
+              
+                </div>
+            </nav>
+
+            <section>
+                <div class="container">
+                  <div class="flex top">
+                      <div class="about_person_sub_cont_div1">
+                          <div class="name_div">
+                              <h1>I'm Krishna Italiya</h1>
+                              <h3>Frontend Developer</h3>
+                          </div>
+                              <p class="para">I'm a front-end developer with experience in building responsive websites.
+                                In which I have knowledge of HTML, CSS, JavaScript and React.js.</p>
+                                <ul class="icon_ul_list">
+                                    <li><a class="diff_icon" href="mailto: krishnaitaliya26@gmail.com"><i class="far fa-envelope"></i></a></li>
+                                    <li><a class="diff_icon" href="https://www.linkedin.com/in/krishna-italiya-5a1a8b25b/"><i class="fab fa-linkedin"></i></a></li>
+                                    <li><a class="diff_icon" href="telto: 9427646212"><i class="fas fa-phone"></i></a></li>
+                                    <li><a class="diff_icon" href=""><i class="fab fa-github"></i></a></li>
+                                </ul>
+                                <button class="btn"><a href="#contact" class="btn_link">Contact Me</a></button>
+                          </div>
+      
+                          <div class="about_person_sub_cont_div1 img_div">
+                            <div class="gray_img">
+                              <img src="img.png" alt="img" width="100%" class="person_img">
+                                <div class="square_box"></div>
+                            </div>
+                            </div>
+                      </div>
+                  </div>
+              </section>
+
+              <section>
+                <div class="top_padding">
+                <div class="container">
+                    <div class="about_person_cont_div">
+                        <h1 class="heading">About</h1>
+                    </div>
+                    <p class="para">Frontend development encompasses the creation of user interfaces and user experiences
+                        for websites or web applications. Frontend developers primarily utilize technologies such as
+                        HTML, CSS, and JavaScript, along with frameworks like React.js, to build the visual
+                        components that users interact with. Their main focus is on designing responsive interfaces
+                        that adapt well to various devices and screen sizes.</p>
+                       
+                </div>
+                    </div>
+                </div>
+            </div>
+            </section>
+
+            <section>
+                <div class="top_padding">
+                <div class="container">
+                    <div class="about_person_cont_div">
+                        <h1 class="heading">Projects</h1>
+                    </div>
+               
+        
+                    <div class="project_main_div">
+                        <div class="project_img_div">
+                           <a href="https://krishna-i.marutiinstituteofdesign.com/bakery_product/bakery.html"><img src="project1.png" alt="" width="100%" class="height_img"></a>
+                            <div class="project_cont">
+                                <h3>E-commerce Bakery Products</h3>
+                                <p>Built an e-commerce website to showcase the Bakery product
+                                    In which different types of cake and  add to cart functinality are available.</p>
+                                    <button class="btn"><a href="https://krishna-i.marutiinstituteofdesign.com/bakery_product/bakery.html" class="btn_link">demo</a></button>
+                            </div>
+                        </div>
+        
+                        <div class="project_img_div">
+                            <a href="http://localhost:3000"><img src="project8.png" alt="" width="100%"  class="height_img"></a>
+                            <div class="project_cont">
+                                <h3>Frutikha Website</h3>
+                                <p>Built an website different type of are available fresh fruits  and  add to cart functinality  are available This Website
+                                    Design with framework like React.js use.</p>
+                                    <button class="btn"><a href="http://localhost:3000/home" class="btn_link">demo</a></button>
+                            </div>
+                        </div>
+        
+                        <div class="project_img_div">
+                            <a href="https://krishna-i.marutiinstituteofdesign.com/Kitchen_sink/kitchen_sink_design.html"><img src="project2.png" alt="" width="100%" class="height_img"></a>
+                            <div class="project_cont">
+                                <h3>Kitchen Sink</h3>
+                                <p>Built an responsive design The color themes have been
+                                    designed to work harmoniously with each other Resize the
+                                    page to see the effect Paper-like Cards with Shadows.
+                                    </p>
+                                    <button class="btn"><a href="https://krishna-i.marutiinstituteofdesign.com/Kitchen_sink/kitchen_sink_design.html" class="btn_link">demo</a></button>
+                            </div>
+                        </div>
+
+                        <div class="project_img_div">
+                            <a href="https://krishna-i.marutiinstituteofdesign.com/social_media/index.html" class="btn_link"><img src="project4.png" alt="" width="100%" class="height_img"></a>
+                             <div class="project_cont">
+                                <h3>Social Media template</h3>
+                                <p>has created a social media template that has different types of cart available and different type palce images and person images available</p>
+                                    <button class="btn"><a href="https://krishna-i.marutiinstituteofdesign.com/social_media/index.html" class="btn_link">demo</a></button>
+                            </div>
+                         </div>
+        
+                        <div class="project_img_div">
+                            <a href="https://krishnaitaliya26.github.io/dashboard/dashboard_design.html" class="btn_link"><img src="project5.png" alt="" width="100%" class="height_img"></a>
+                            <div class="project_cont">
+                                <h3>Dashboard</h3>
+                                <p>Built an website to Dashboard website created in which New Visitors, New Users and Shree Message, view different type of design available.</p>
+                                    <button class="btn"><a href="https://krishnaitaliya26.github.io/dashboard/dashboard_design.html" class="btn_link">demo</a></button>
+                            </div>
+                        </div>
+                        
+                        <div class="project_img_div">
+                            <a href="file:///D:/krishna/RWD%20template/Business.html"><img src="project6.png" alt="" width="100%" class="height_img"></a>
+                            <div class="project_cont">
+                                <h3>Business Website</h3>
+                                <p>This website are Business website offers professional accounting and financial
+                                    services, including income tax assistance, with monthly specials.</p>
+                                    <button class="btn"><a href="file:///D:/krishna/RWD%20template/Business.html" class="btn_link">demo</a></button>
+                            </div>
+                        </div>
+                    </div>
+        
+        
+                    </div>
+                </div>
+                </section>
+
+                <section>
+                    <div class="top_padding">
+                        <div class="container language_cont_main_div">
+                            <div class="about_person_cont_div">
+                                <h1 class="heading">Skills</h1>
+                            </div>
+        
+                            <div class="language_main_div">
+                            <div class="language_sub_div">
+                                <div class="language_div">
+                                    <div class="black_div"><img src="html.png" alt="" class="image1"></div>
+                                    <h3>HTML</h3>
+                                </div>
+                            </div>
+        
+                            <div class="language_sub_div">
+                                <div class="language_div">
+                                    <div class="black_div"><img src="css.png" alt="" class="image2"></div>
+                                    <h3>CSS</h3>
+                                </div>
+                            </div>
+        
+                            <div class="language_sub_div">
+                                <div class="language_div">
+                                    <div class="black_div"><img src="js.png" alt="" class="image1"></div>
+                                    <h3>JavaScript</h3>
+                                </div>
+                            </div>
+        
+                            <div class="language_sub_div">
+                                <div class="language_div">
+                                    <div class="black_div"><img src="react.png" alt="" class="image4"></div>
+                                    <h3>React.Js</h3>
+                                </div>
+                               
+                            </div>
+        
+                            <div class="language_sub_div">
+                                <div class="language_div">
+                                    <div class="black_div"><img src="c&cpp.png" alt="" class="image5"></div>
+                                    <h3>C & C++</h3>
+                                </div>
+                                
+                            </div>
+                            </div>
+        
+                        </div>
+                    </div>
+        
+                </section>
+
+                <footer>
+                    <div id="contact">
+                        <div class="top_padding">
+                        <div class="contact_div">
+                            <div class="container ">
+                
+                                <div class="contact_main_div">
+                                <div class="con1">
+                                    <h1>Contact</h1>
+                                    <p>Feel free to reach out!</p>
+                                </div>
+                                <div class="con">
+                                    <ul>
+                                        <li><i class="fas fa-phone icon"></i><a href="tel: 9427646212">9427646212</a></li>
+                                        <li><i class="fas fa-envelope icon"></i><a href="mailto: krishnaitaliya26@gmail.com">krishnaitaliya26@gmail.com</a></li>
+                                        <li><i class="fab fa-linkedin icon"></i><a href="https://www.linkedin.com/in/krishna-italiya-5a1a8b25b/">linkedin.com/krishna-italiya</a></li>
+                                    </ul>
+                                </div>
+                             </div> 
+                        </div>
+                        </div>
+                    </div>
+                </footer>
+
+                <script>
+                    var icon = document.getElementById("sunicon");
+                    icon.onclick = function(){
+                        document.body.classList.toggle("dark-them");
+                        if(document.body.classList.contains("dark-them")){
+                            icon.src = "moon.png";
+                        }
+                        else{
+                            icon.src = "sun.png";
+                        }
+                    }
+                </script>
+
+</body>
+</html>
